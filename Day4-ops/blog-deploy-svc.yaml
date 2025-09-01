@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: blog
-        image: skilleat/miniblog:v1-kb5  # ★ 수정
+        image: skilleat/miniblog:v2-kb5  # ★ 수정
         ports:
         - containerPort: 8080
         envFrom:
